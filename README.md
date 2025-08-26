@@ -46,7 +46,7 @@ Follow these steps to get the scraper running on your local machine.
 
 **1. Clone the Repository**
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git
+git clone https://github.com/LuredbyLogic/pinterest-scraper.git
 cd pinterest-scraper
 ```
 
@@ -60,13 +60,15 @@ PINTEREST_PASSWORD=your_secret_password
 3. Install Python Dependencies
 It is recommended to use a virtual environment.
 
-Bash
+```
 # Create and activate a virtual environment (optional but recommended)
 python -m venv venv
 source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
 
 # Install required packages
 pip install -r requirements.txt
+```
+
 4. Install Playwright Browsers
 This is a crucial one-time setup step that downloads the necessary browser binaries for Playwright.
 ```Bash
