@@ -1,0 +1,7 @@
+# requirements.txt
+
+playwright
+gradio
+python-dotenv
+pandas
+aiofiles
