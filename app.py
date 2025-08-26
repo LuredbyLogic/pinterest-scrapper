@@ -19,7 +19,7 @@ if not PINTEREST_EMAIL or not PINTEREST_PASSWORD:
     raise ValueError("Pinterest email and password must be set in the .env file.")
 
 # --- Main Scraper Logic Wrapper ---
-async def run_scraper_process(search_type, query, num_pins, progress=gr.Progress(track_gevents=True)):
+async def run_scraper_process(search_type, query, num_pins, progress=gr.Progress()):
     """
     A wrapper function to be called by the Gradio interface.
     It handles the entire scraping process and yields status updates.
