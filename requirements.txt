@@ -1,7 +1,16 @@
 # requirements.txt
+# --- Core Components ---
+playwright         # The main browser automation engine
+gradio             # For the web user interface
+python-dotenv      # For managing credentials in .env file
+pandas             # For data manipulation and saving to CSV
 
-playwright
-gradio
-python-dotenv
-pandas
-aiofiles
+# --- Asynchronous Networking & Files (Fixes the crash) ---
+aiohttp            # For high-performance async HTTP requests (image downloads)
+aiofiles           # For async file saving
+
+# --- Popular Scraping & Data Extraction Libraries (For future use) ---
+httpx              # A modern, async-capable alternative to 'requests'
+beautifulsoup4     # The most popular library for parsing HTML
+lxml               # High-performance parser, often used as a backend for BeautifulSoup
+parsel             # Powerful library for extracting data using XPath and CSS selectors
